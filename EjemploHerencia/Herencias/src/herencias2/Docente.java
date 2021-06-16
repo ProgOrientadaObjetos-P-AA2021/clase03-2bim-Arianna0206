@@ -33,7 +33,7 @@ public class Docente extends Persona {
     @Override
     public String toString(){
     
-        return String.format("%s - %f", super.toString(), getSueldo());
+        return String.format("%s - %.2f", super.toString(), getSueldo());
     }
     
     
