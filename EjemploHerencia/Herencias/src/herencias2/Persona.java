@@ -16,10 +16,12 @@ public class Persona {
     protected String apellido;
     protected int edad;
     
+    
     public Persona(String n, String a,  int e){
         setNombre(n);
         setApellido(a);
         setEdad(e);
+        
     }
     
     public void setNombre(String n){
